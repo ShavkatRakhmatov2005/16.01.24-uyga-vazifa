@@ -22,13 +22,6 @@ Hurmatli {first_name} {last_name}!
 {brand} tomonidan {year} yilda da ishlab chiqarilgan {color} rangli avtoulovingiz 
 Texnik holatini tekshirish maqsadida Mahalliy 'Avtotest Corp' ofisiga murojat qilishingizni so'raymiz!
 ''')
-    def shortCar(self):
-        if self.year<2005:
-            print(f'''
-Hurmatli {self.first_name} {self.last_name}!
-{self.brand} tomonidan {self.year} yilda da ishlab chiqarilgan {self.color} rangli avtoulovingiz 
-Texnik holatini tekshirish maqsadida Mahalliy 'Avtotest Corp' ofisiga murojat qilishingizni so'raymiz!
-''')
 cars=[]
 for i in range(1,int(input('n='))+1):
     id=int(input('ID: '))
